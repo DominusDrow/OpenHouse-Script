@@ -1,6 +1,6 @@
 use 0ZNbicsQ202a;
 
-create table if not exists LightRegister(
+create table LightRegister(
 	id int not null auto_increment,
 	appointment date not null,
   start_openhouse time not null,
@@ -9,6 +9,7 @@ create table if not exists LightRegister(
   lastname varchar(50) not null,
   email varchar(100) not null,
   phone varchar(20) not null,
-  url varchar(50)
+  url varchar(50),
+  primary key(id)
 )
 
