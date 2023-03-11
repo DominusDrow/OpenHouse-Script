@@ -4,7 +4,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Create an Open House</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="modalClose"></button>
+        <button type="button" class="btn-close modalClose" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <form>
@@ -23,20 +23,20 @@
           </div>
           <div class="mb-3">
             <label for="fecha" class="form-label">Date:</label>
-            <input type="date" class="form-control" id="fecha" name="fecha">
+            <input type="date" class="form-control" id="fecha" name="fecha" required>
           </div>
           <div class="mb-3">
             <label for="horaInicio" class="form-label">Start Time:</label>
-            <input type="time" class="form-control" id="horaInicio" name="horaInicio">
+            <input type="time" class="form-control" id="horaInicio" name="horaInicio" required>
           </div>
           <div class="mb-3">
             <label for="horaFin" class="form-label">End Time:</label>
-            <input type="time" class="form-control" id="horaFin" name="horaFin">
+            <input type="time" class="form-control" id="horaFin" name="horaFin" required>
           </div>
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Start Open House</button>
+        <button type="button" class="btn btn-primary" id="startOpenHouse">Start Open House</button>
       </div>
     </div>
   </div>

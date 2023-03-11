@@ -20,11 +20,16 @@
 
 <?php include("./includes/forms/openhouse.php"); ?>
 
+<?php include("./includes/forms/lightReg.php"); ?>
+
 
 <script>
 
 let $modal = document.getElementById("myModal");
-let $modalClose = document.getElementById("modalClose");
+let $modalLightReg = document.getElementById("lightReg");
+let $modalClose = document.querySelectorAll(".modalClose");
+let $startOpenHouse = document.getElementById("startOpenHouse");
+let $checkIn = document.getElementById("checkIn");
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -37,16 +42,33 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("click", (e) => {
+		
+		console.log($modalClose);
 
-  if(e.target === $modalClose){
+  if([...$modalClose].includes(e.target)){
     document.body.classList.remove("bg-dark","opacity-85");
-    $modal.classList.add("show");
     $modal.style.display = "none";
+		$modalLightReg.style.display = "none";
     window.history.back();
   }
 
+	if(e.target === $startOpenHouse){
+    $modalLightReg.classList.add("show");
+    $modalLightReg.style.display = "block";
+    $modal.style.display = "none";
+	}
 
-})
+	if(e.target === $checkIn){
+    document.body.classList.remove("bg-dark","opacity-85");
+		$modalLightReg.style.display = "none";
+    window.history.back();
+		alert("reservation made");
+	}
+
+});
+
 </script>
 
 <?php include("./includes/footer.php"); ?>
+
+
