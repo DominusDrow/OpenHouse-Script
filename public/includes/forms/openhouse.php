@@ -7,7 +7,7 @@
         <button type="button" class="btn-close modalClose" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form>
+        <form class="openHouseForm">
           <div class="mb-3">
 				    <img src="../src/house2.jpg" class="img-fluid" alt="Casa">
           </div>

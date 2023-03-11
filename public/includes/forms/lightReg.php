@@ -13,7 +13,7 @@
             <h5>House</h5>
           </div>
           <div class="col-md-6">
-            <form>
+            <form class="lightRegisterForm">
               <div class="form-group">
                 <input type="text" class="form-control" id="nombre1" placeholder="Name">
               </div>

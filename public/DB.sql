@@ -2,12 +2,13 @@ use 0ZNbicsQ202a;
 
 create table if not exists LightRegister(
 	id int not null auto_increment,
-	appointment DATE NOT NULL,
-  start_openHouse TIME NOT NULL,
-	end_openHouse TIME,
-  name VARCHAR(50) NOT NULL,
-  lastname VARCHAR(50) NOT NULL,
-  email VARCHAR(100) NOT NULL,
-  phone VARCHAR(20) NOT NULL
+	appointment date not null,
+  start_openhouse time not null,
+	end_openhouse time,
+  name varchar(50) not null,
+  lastname varchar(50) not null,
+  email varchar(100) not null,
+  phone varchar(20) not null,
+  url varchar(50)
 )
 

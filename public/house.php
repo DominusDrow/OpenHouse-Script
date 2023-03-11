@@ -24,7 +24,6 @@
 
 
 <script>
-
 let $modal = document.getElementById("myModal");
 let $modalLightReg = document.getElementById("lightReg");
 let $modalClose = document.querySelectorAll(".modalClose");
@@ -42,8 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("click", (e) => {
-		
-		console.log($modalClose);
 
   if([...$modalClose].includes(e.target)){
     document.body.classList.remove("bg-dark","opacity-85");
@@ -61,13 +58,16 @@ document.addEventListener("click", (e) => {
 	if(e.target === $checkIn){
     document.body.classList.remove("bg-dark","opacity-85");
 		$modalLightReg.style.display = "none";
-    window.history.back();
 		alert("reservation made");
+    window.history.back();
 	}
 
 });
-
 </script>
+
+
+<script src="../connectDB.js"></script>
+
 
 <?php include("./includes/footer.php"); ?>
 
