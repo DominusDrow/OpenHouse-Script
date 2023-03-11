@@ -1,12 +1,5 @@
 
-<?php
-if(strpos($_SERVER['REQUEST_URI'], "/OpenHouse") !== false) {
-    // Si la cadena "/OpenHouse" se encuentra en la URL actual, redirigir al formulario
-    header("Location: ./form.php");
-    exit;
-} else {
-	include("./includes/header.php");
-?>
+<?php	include("./includes/header.php");?>
 
 	<div class="container">
 		<div class="col-md-12">
@@ -48,10 +41,10 @@ if(strpos($_SERVER['REQUEST_URI'], "/OpenHouse") !== false) {
 			</div>
 		</div>
 
-<?php
-	include("./includes/footer.php");
-}
-?>
+
+
+
+<?php	include("./includes/footer.php");?>
 
 
 

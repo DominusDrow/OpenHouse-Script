@@ -18,5 +18,35 @@
 	</div>
 
 
+<?php include("./includes/forms/openhouse.php"); ?>
+
+
+<script>
+
+let $modal = document.getElementById("myModal");
+let $modalClose = document.getElementById("modalClose");
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  if (window.location.href.indexOf("/openhouse") > -1) {
+    document.body.classList.add("bg-dark","opacity-85");
+
+    $modal.classList.add("show");
+    $modal.style.display = "block";
+  }
+});
+
+document.addEventListener("click", (e) => {
+
+  if(e.target === $modalClose){
+    document.body.classList.remove("bg-dark","opacity-85");
+    $modal.classList.add("show");
+    $modal.style.display = "none";
+    window.history.back();
+  }
+
+
+})
+</script>
 
 <?php include("./includes/footer.php"); ?>
