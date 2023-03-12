@@ -1,5 +1,7 @@
 
-<?php	include("./includes/header.php");?>
+<?php	
+include("./includes/header.php");
+?>
 
 	<div class="container">
 		<div class="col-md-12">
@@ -24,7 +26,7 @@
 					<div class="card-body">
 						<h5 class="card-title">House 2</h5>
 						<p class="card-text">$250,000</p>
-						<a href="./house.php" class="btn btn-primary" data-toggle="tab" data-target="#casa2">View More</a>
+						<a href="./house2.php" class="btn btn-primary" data-toggle="tab" data-target="#casa2">View More</a>
 					</div>
 				</div>
 			</div>
@@ -35,7 +37,7 @@
 					<div class="card-body">
 						<h5 class="card-title">House 3</h5>
 						<p class="card-text">$300,000</p>
-						<a href="./house.php" class="btn btn-primary" data-toggle="tab" data-target="#casa3">View More</a>
+						<a href="./house3.php" class="btn btn-primary" data-toggle="tab" data-target="#casa3">View More</a>
 					</div>
 				</div>
 			</div>

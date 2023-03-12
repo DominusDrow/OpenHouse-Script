@@ -23,7 +23,7 @@
 					<a class="nav-link " href="index.php">houses</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="mascotas.php">DataBase</a>
+					<a class="nav-link " href="database.php">DataBase</a>
 				</li>
 			</ul>
 		</div>
