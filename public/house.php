@@ -1,8 +1,6 @@
 
 <?php 
-session_start();
 include("./includes/header.php");
-$_SESSION['house url'] = '../src/house1.jpg';
  ?>
 
 	<div class="container">
