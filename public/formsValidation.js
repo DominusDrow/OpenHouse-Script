@@ -24,7 +24,11 @@ document.addEventListener("click", (e) => {
     document.body.classList.remove("bg-dark","opacity-85");
     $modal.style.display = "none";
     $modalLightReg.style.display = "none";
-    window.location.replace(window.location.href.replace('/openhouse', ''));
+
+    if (window.location.href.indexOf("/openhouse") > -1) 
+      window.location.replace(window.location.href.replace('/openhouse', ''));
+    else if(window.location.href.indexOf("/openlight") > -1)
+      window.location.replace(window.location.href.replace('/openlight', ''));
   }
 
   if(e.target === $startOpenHouse){
@@ -36,7 +40,7 @@ document.addEventListener("click", (e) => {
     document.body.classList.remove("bg-dark","opacity-85");
     $modalLightReg.style.display = "none";
     alert("reservation made");
-    window.location.replace(window.location.href.replace('/openhouse', ''));
+    window.location.replace(window.location.href.replace('/openlight', ''));
   }
 
 });

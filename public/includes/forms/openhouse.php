@@ -23,14 +23,22 @@
           </div>
           <div class="mb-3">
             <input type="date" class="form-control" id="fecha" name="fecha" required>
+          </div>
+          <div class="mb-3">
+            <label for="horaInicio" class="form-label">Start Time:</label>
             <input type="time" class="form-control" id="horaInicio" name="horaInicio" placeholder="Start Time" required>
+          </div>
+          <div class="mb-3">
+            <label for="horaFin" class="form-label">End Time:</label>
             <input type="time" class="form-control" id="horaFin" name="horaFin" placeholder="End Time" required>
           </div>
         </form>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" id="startOpenHouse">Start Open House</button>
-      </div>
+        <div class="row">
+          <div class="col text-center">
+            <button type="button" class="btn btn-primary" id="startOpenHouse">Start Open House</button>
+          </div>
+        </div>
     </div>
   </div>
 </div>
