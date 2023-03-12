@@ -9,7 +9,7 @@
       <div class="modal-body">
         <form class="openHouseForm">
           <div class="mb-3">
-          <img src=<?php session_start(); echo $_SESSION['house url']; ?> class="img-fluid" alt="Casa">
+          <img src=<?php echo $_SESSION['house url']; ?> class="img-fluid" alt="Casa">
           </div>
           <div class="mb-3">
             <label for="mode" class="form-label text-secondary">Registration Form</label>

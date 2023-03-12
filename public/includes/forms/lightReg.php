@@ -9,7 +9,7 @@
       <div class="modal-body">
         <div class="row">
           <div class="col-md-6">
-				    <img src=<?php session_start(); echo $_SESSION['house url']; ?> class="img-fluid" alt="Casa">
+				    <img src=<?php echo $_SESSION['house url']; ?> class="img-fluid" alt="Casa">
             <div class="row p-4">
               <div class="col text-center">
                 <h3 class="text-secondary">House</h3>
