@@ -23,20 +23,7 @@ include("./includes/header.php");
 <?php include("./includes/forms/openhouse.php"); ?>
 <?php include("./includes/forms/lightReg.php"); ?>
 
-<script>
-	const parts = window.location.href.split('/');
-	const newUrl = parts.slice(0, 5).join('/');
-
-	const scriptForm = document.createElement('script');
-	const scriptConn = document.createElement('script');
-
-	scriptForm.src = newUrl + '/formsValidation.js';
-	scriptConn.src = newUrl + '/connectDB.js';
-
-	document.body.appendChild(scriptForm);
-	//document.body.appendChild(scriptConn);
-
-</script>
+<script src="../formsValidation.js"></script>
 
 
 <?php include("./includes/footer.php"); ?>
