@@ -19,54 +19,22 @@
 
 
 <?php include("./includes/forms/openhouse.php"); ?>
-
 <?php include("./includes/forms/lightReg.php"); ?>
 
-
 <script>
-let $modal = document.getElementById("myModal");
-let $modalLightReg = document.getElementById("lightReg");
-let $modalClose = document.querySelectorAll(".modalClose");
-let $startOpenHouse = document.getElementById("startOpenHouse");
-let $checkIn = document.getElementById("checkIn");
+	const parts = window.location.href.split('/');
+	const newUrl = parts.slice(0, 5).join('/');
 
-document.addEventListener("DOMContentLoaded", () => {
+	const scriptForm = document.createElement('script');
+	const scriptConn = document.createElement('script');
 
-  if (window.location.href.indexOf("/openhouse") > -1) {
-    document.body.classList.add("bg-dark","opacity-85");
+	scriptForm.src = newUrl + '/formsValidation.js';
+	scriptConn.src = newUrl + '/connectDB.js';
 
-    $modal.classList.add("show");
-    $modal.style.display = "block";
-  }
-});
+	document.body.appendChild(scriptForm);
+	//document.body.appendChild(scriptConn);
 
-document.addEventListener("click", (e) => {
-
-  if([...$modalClose].includes(e.target)){
-    document.body.classList.remove("bg-dark","opacity-85");
-    $modal.style.display = "none";
-		$modalLightReg.style.display = "none";
-    window.history.back();
-  }
-
-	if(e.target === $startOpenHouse){
-    $modalLightReg.classList.add("show");
-    $modalLightReg.style.display = "block";
-    $modal.style.display = "none";
-	}
-
-	if(e.target === $checkIn){
-    document.body.classList.remove("bg-dark","opacity-85");
-		$modalLightReg.style.display = "none";
-		alert("reservation made");
-    window.history.back();
-	}
-
-});
 </script>
-
-
-<script src="../connectDB.js"></script>
 
 
 <?php include("./includes/footer.php"); ?>
