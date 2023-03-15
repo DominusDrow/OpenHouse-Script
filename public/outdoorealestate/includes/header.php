@@ -19,29 +19,29 @@
     <div class="flex justify-between h-20">
       <div class="flex-shrink-0 flex items-center">
         <a href="home.php">
-          <img class="h-12 w-auto" src="./outdoorealestate/src/logoMain.png" alt="Logo">
+          <img class="h-12 w-auto" src="./src/logoMain.png" alt="Logo">
         </a>
-        <img class="h-12 w-auto" src="./outdoorealestate/src/logoSecond.png" alt="Logo">
+        <img class="h-12 w-auto" src="./src/logoSecond.png" alt="Logo">
       </div>
       
       <div class="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
         <div class="flex-shrink-0 flex items-center hover:bg-gray-700 rounded-md">
-          <a href="#" class="text-blue-800  hover:text-white px-3 py-2  text-lg font-medium">Home</a>
+          <a href="../home.php" class="text-blue-800  hover:text-white px-3 py-2  text-lg font-medium">Home</a>
         </div>
         <div class="flex-shrink-0 flex items-center hover:bg-gray-700 rounded-md">
-          <a href="#" class="text-blue-800  hover:text-white px-3 py-2  text-lg font-medium">Search</a>
+          <a href="search.php" class="text-blue-800  hover:text-white px-3 py-2  text-lg font-medium">Search</a>
         </div>
         <div class="flex-shrink-0 flex items-center hover:bg-gray-700 rounded-md">
-          <a href="#" class="text-blue-800  hover:text-white px-3 py-2  text-lg font-medium">About</a>
+          <a href="about.php" class="text-blue-800  hover:text-white px-3 py-2  text-lg font-medium">About</a>
         </div>
         <div class="flex-shrink-0 flex items-center hover:bg-gray-700 rounded-md">
-          <a href="#" class="text-blue-800  hover:text-white px-3 py-2  text-lg font-medium">Buying</a>
+          <a href="buying.php" class="text-blue-800  hover:text-white px-3 py-2  text-lg font-medium">Buying</a>
         </div>
         <div class="flex-shrink-0 flex items-center hover:bg-gray-700 rounded-md">
-          <a href="#" class="text-blue-800  hover:text-white px-3 py-2  text-lg font-medium">Selling</a>
+          <a href="selling.php" class="text-blue-800  hover:text-white px-3 py-2  text-lg font-medium">Selling</a>
         </div>
         <div class="flex-shrink-0 flex items-center hover:bg-gray-700 rounded-md">
-          <a href="#" class="text-blue-800  hover:text-white px-3 py-2  text-lg font-medium">Contact</a>
+          <a href="contact.php" class="text-blue-800  hover:text-white px-3 py-2  text-lg font-medium">Contact</a>
         </div>
       </div>
 
