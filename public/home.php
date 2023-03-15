@@ -107,12 +107,79 @@
             Advanced Search
           </button>
         </div>
-          
-
       </form>
     </div>
   </div>
 </div>
+
+
+
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg shadow-lg ">
+  <!-- Primera columna -->
+  <div class="flex flex-col justify-center items-center mt-20 ml-10">
+    <div class="relative rounded-lg overflow-hidden shadow-xl">
+      <div class="h-50 pt-p56/25 mb-4">
+
+<iframe width="500" height="270" src="https://www.youtube.com/embed/__yODy0AjiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      </div>
+    </div>
+    <h5 class="text-lg font-bold text-gray-800 mt-4 ">Specialties:</h5>
+    <div class="text-center">
+      <p class="text-sm  text-gray-800 mt-1 mb-4">Buying, Selling, Land, Tiny Homes, Park Models, Cabins, Luxury Homes, RV Lots, New Construction.</p>
+    </div>
+   <a href="./outdoorealestate/about.php" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full shadow-lg">Read More</a>
+  </div>
+
+  <!-- Segunda columna -->
+  <div class="flex flex-col justify-center  m-10">
+    <h2 class="text-3xl font-bold text-gray-800 mb-2">Wes & Keri Reidhead - OutdooRealestate@West USA Realty</h2>
+    <hr class="border-b-2 border-gray-400 my-4 w-1/3">
+    <p class="text-lg text-gray-600 mb-4">We live in the White Mountains and love it! Our past sales include many people from the area and from out of town or state. My team and I can help you with inside knowledge with selling or buying a home, building or looking for land.</p>
+    <p class="text-lg text-gray-600 mb-4">We also have great resources for land financing and home selling, building or buying. Call us today to find out how well the market is doing, rates and what is available in the area you are looking for! We look forward to talking with you.</p>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="grid grid-cols-2 sm:grid-cols-3 grid-cols-3 gap-4 mt-10">
+  <!-- Tarjeta 1 -->
+  <div class="bg-white rounded-lg overflow-hidden shadow-md">
+    <img class="w-full h-48 object-cover" src="./outdoorealestate/src/house1.jpg" alt="Imagen 1">
+    <div class="p-4">
+      <h2 class="text-gray-900 font-bold text-lg mb-2">house 1</h2>
+      <p class="text-gray-700 text-base">Descripción de la tarjeta 1.</p>
+      <p class="mt-2">$99.99</p>
+    </div>
+  </div>
+  
+  <!-- Tarjeta 2 -->
+  <div class="bg-white rounded-lg overflow-hidden shadow-md">
+    <img class="w-full h-48 object-cover" src="./outdoorealestate/src/house2.jpg" alt="Imagen 2">
+    <div class="p-4">
+      <h2 class="text-gray-900 font-bold text-lg mb-2">house 2</h2>
+      <p class="text-gray-700 text-base">Descripción de la tarjeta 2.</p>
+      <p class="mt-2">$149.99</p>
+    </div>
+  </div>
+  
+  <!-- Tarjeta 3 -->
+  <div class="bg-white rounded-lg overflow-hidden shadow-md">
+    <img class="w-full h-48 object-cover" src="./outdoorealestate/src/house3.jpg" alt="Imagen 2">
+    <div class="p-4">
+      <h2 class="text-gray-900 font-bold text-lg mb-2">house 3</h2>
+      <p class="text-gray-700 text-base">Descripción de la tarjeta 2.</p>
+      <p class="mt-2">$149.99</p>
+    </div>
+  </div>
+</div>
+        
+
+
+
+
 
 
 <div class="bg-gray-700 h-16 flex items-center justify-between px-6 lg:px-16">
